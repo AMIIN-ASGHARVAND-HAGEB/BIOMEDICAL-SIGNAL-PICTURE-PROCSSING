@@ -1,0 +1,30 @@
+# Ignore MATLAB-specific files
+*.asv
+*.m~
+*.p
+*.mex*
+*.fig
+*.mlapp
+*.mltbx
+*.mlx
+*.slx
+*.slxc
+*.sldd
+*.prj
+_Deployable/
+_Packages/
+simulinkcache/
+
+# Ignore generated folders
+/build/
+/deploy/
+
+# Ignore data files
+*.mat
+*.csv
+*.xlsx
+
+# Keep these
+!*.m
+!*.mlappinstall
+!*.md
